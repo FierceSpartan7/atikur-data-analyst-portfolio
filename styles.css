@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Atikur Rehman - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Mohd Atikur Rehman</h1>
+        <p>Data Analyst | Python | SQL | Visualization</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate Data Analyst with a strong foundation in Python, SQL, and Data Visualization. Enthusiastic about solving real-world problems through data-driven insights.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Python, SQL, Advanced Excel</li>
+            <li>Data Visualization: Tableau, Power BI, Matplotlib, Seaborn</li>
+            <li>Machine Learning: Scikit-Learn</li>
+            <li>Databases: MySQL, PostgreSQL</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Sales Data Analysis</h3>
+            <p>Analyzed sales trends and customer behavior to improve revenue generation.</p>
+        </div>
+        <div class="project">
+            <h3>Email Spam Detection</h3>
+            <p>Implemented a machine learning model with 95% accuracy.</p>
+        </div>
+        <canvas id="dataChart" width="400" height="200"></canvas>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Data Science Certification – Intellipaat (2024)</li>
+            <li>Data Analytics with Python – NPTEL</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:atikurrehman96@gmail.com">atikurrehman96@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/atikur-rehman/">linkedin.com/in/atikur-rehman</a></p>
+        <p>GitHub: <a href="https://github.com/FierceSpartan7">github.com/FierceSpartan7</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Mohd Atikur Rehman | Data Analyst Portfolio</p>
+    </footer>
+
+    <script>
+        var ctx = document.getElementById('dataChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May'],
+                datasets: [{
+                    label: 'Sales Performance',
+                    data: [12, 19, 3, 5, 2],
+                    backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+    </script>
+</body>
+</html>
