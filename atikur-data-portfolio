@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Atikur Rehman - Data Analyst Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mohd Atikur Rehman</h1>
+        <p>Data Analyst | Python | SQL | Excel</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Detail-oriented Data Analyst with expertise in Python, SQL, and Excel. Passionate about data visualization, statistical analysis, and problem-solving. Strong background in data-driven decision-making.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Python | SQL | Advanced Excel</li>
+            <li>Data Visualization: Matplotlib, Seaborn</li>
+            <li>Machine Learning: Scikit-Learn</li>
+            <li>Databases: MySQL, Microsoft SQL Server</li>
+            <li>Version Control: Git, GitHub</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Email Spam Detection</h3>
+            <p>Developed a machine learning model using NLP and Scikit-Learn to classify emails with 95% accuracy.</p>
+        </div>
+        <div class="project">
+            <h3>Color Detection from Images</h3>
+            <p>Built an image processing tool using OpenCV to extract and analyze colors efficiently.</p>
+        </div>
+        <div class="project">
+            <h3>Notepad with Tkinter</h3>
+            <p>Created a GUI-based text editor using Python’s Tkinter library.</p>
+        </div>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Data Science Certification – Intellipaat (2024)</li>
+            <li>Data Analytics with Python – NPTEL</li>
+            <li>Customer Interactive Service Program – WNS Cares Foundation</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:atikurrehman96@gmail.com">atikurrehman96@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/atikur-rehman/" target="_blank">linkedin.com/in/atikur-rehman</a></p>
+        <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+        <p><a href="resume.pdf" download>Download Resume</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Mohd Atikur Rehman | Data Analyst Portfolio</p>
+    </footer>
+</body>
+</html>
